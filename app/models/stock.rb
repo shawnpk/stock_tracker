@@ -1,6 +1,6 @@
 class Stock < ActiveRecord::Base
     
-    def self.find_by_ticket(ticker_symbol)
+    def self.find_by_ticker(ticker_symbol)
       where(ticker: ticker_symbol).first
     end
     
