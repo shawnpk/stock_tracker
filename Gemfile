@@ -9,6 +9,8 @@ gem 'devise'
 gem "twitter-bootstrap-rails"
 # Use devise-bootstrap-views for devise style
 gem 'devise-bootstrap-views'
+# A ruby gem that retrieves stock quotes and historical pricing from google yahoo
+gem "stock_quote"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
